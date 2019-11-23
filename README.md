@@ -2,7 +2,7 @@
     <br>    
     <img 
         alt="Preview"
-        src="https://github.com/iFrosta/Projects/blob/master/SnakeGame/img/SnakePreview.png"
+        src="https://github.com/iFrosta/SnakeGame/blob/master/SnakeGame/img/SnakePreview.png"
         width=500px
     />
   <h1>SnakeGame</h1>
