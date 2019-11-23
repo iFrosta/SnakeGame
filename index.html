@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Snake Game</title>
+  <link href="https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.min.css">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+<canvas id="game"></canvas>
+<section class="stats">
+  <span id="score"></span>
+  <span id="maxscore"></span>
+  <button id="ai" onclick="Ai()">Autopilot <span>(v.0.5)</span></button>
+  <button id="aiOld" onclick="AiOld()">Autopilot <span>(v.0.3)</span></button>
+</section>
+<div id="mob">
+  <button onclick="snake.changeDirection('Up');" id="mUp">⮝</button>
+  <div id="mobInside">
+    <button onclick="snake.changeDirection('Left');" id="mLeft">⮜</button>
+    <button onclick="snake.changeDirection('Right');" id="mRight">⮞</button>
+  </div>
+  <button onclick="snake.changeDirection('Down');" id="mDown">⮟</button>
+</div>
+<script src="js/side.min.js"></script>
+<script src="js/fruit.min.js"></script>
+<script src="js/snake.js"></script>
+<script src="js/app.min.js"></script>
+<script src="js/ai.js"></script>
+<script src="js/ai.v.0.3.js"></script>
+</body>
+</html>
