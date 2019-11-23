@@ -2,9 +2,9 @@
     <br>    
     <img 
         alt="Preview"
-        src="https://github.com/iFrosta/SnakeGame/blob/master/SnakeGame/img/SnakePreview.png"
+        src="https://github.com/iFrosta/SnakeGame/blob/master/img/SnakePreview.png"
         width=500px
     />
   <h1>SnakeGame</h1>
-  <strong>JS, Ai, Autopilot</strong>
+  <strong>Web Snake Game on JS with "Ai"</strong>
 </div>
