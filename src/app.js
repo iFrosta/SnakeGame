@@ -16,7 +16,6 @@ const scale = M.roundNum((canvas.width + canvas.height) / 50),
   stats = { 'score': 0, 'maxscore': 0, 'try': 0 },
   MaxScoreTag = document.querySelector('#maxscore'), ScoreTag = document.querySelector('#score')
 
-
 let snake, fruit, moved
 Init()
 
@@ -78,8 +77,6 @@ function setup(ai = false) {
 }
 
 function reset() {
-  console.log(moved)
-  alert('')
   Init()
   
   ScoreTag.innerText = 'Game over'

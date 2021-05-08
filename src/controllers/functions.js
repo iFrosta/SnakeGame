@@ -36,8 +36,6 @@ function mobSetup() {
   // node.innerText = 'Play'
   // document.querySelector('.stats').appendChild(node)
   document.querySelector('#MobPlay').addEventListener('click', showPad)
-  
-  
 }
 
 function roundNum(num) {
